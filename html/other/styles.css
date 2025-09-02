@@ -1,0 +1,75 @@
+body{
+    font-family: poppins,"sans-serif";
+}
+
+
+
+.heading{
+    text-align: center;
+}
+
+
+.checkbox{
+    display: none;
+}
+
+.btn_1{
+    position: absolute;
+    font-size: 30px;
+    left: 10px;
+    cursor: pointer;
+    /* text-shadow: 2px grey; */
+
+}
+
+
+#check:checked ~ .sidebar{
+    left: 0;
+}
+
+.sidebar{
+    position: fixed;
+    /* left: -300px; */
+    border: 1px solid black;
+    height: 595px;
+    width: 300px;
+    line-height: 60px;
+    padding: 10px;
+    /* text-decoration: none; */
+
+    
+}
+
+.sidebar .logo{
+    position: absolute;
+    left: 30%;
+    top: 1px;
+    border: 1px solid black;
+    /* text-shadow: grey; */
+    
+    /* text-align: center; */
+}
+
+
+.btn_2{
+    position: absolute;
+    top: 0px;
+    left: 265px;
+    font-size: 25px;
+
+}
+
+.sidebar .nav .li {
+    text-decoration: none;
+    padding: 10px;
+
+    
+}
+
+.social_media {
+    position: absolute;
+    bottom: 1px;
+    left: 110px;
+    font-size: 25px;
+    
+}

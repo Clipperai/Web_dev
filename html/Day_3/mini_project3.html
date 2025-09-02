@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MY Services Section</title>
+    </head>
+    <style>
+        .cards{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .box{
+            background: lightblue;
+            padding: 20px;
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            border-radius: 6px;
+            box-shadow: 2px 2px 18px grey;
+            align-items: center;
+               }
+       
+               @media (max-width:600px){
+                .cards{
+                    
+                     flex-direction: column;
+                }
+               }
+
+               
+    </style>
+
+    <body>
+        <h1>What I Do?</h1>
+        <div class="cards">
+            <div class="box">
+                <h2>Coaching Classes</h2>
+                <h3>Classes:6th-12th, ALL BOARDS </h3>
+                <p><ul>
+                    <li>Flexible Timings</li>
+                    <li>Daily Tasks</li>
+                    <li>DPPS</li>
+                    <li>Weekly Tests</li>
+                </ul></p>
+            </div>
+            <div class="box">
+                <h2>Frontend Development</h2>
+                <h3>Technologies:HTML,CSS</h3>
+                <p><ul>
+                    <li>Responsive Websites</li>
+                    <li>Mini Projects</li>
+                    <li>Weekly Revision</li>
+                    <li>Project Based Learning</li>
+                </ul></p>
+            </div>
+            <div class="box">
+                <h2>Content Creation</h2>
+                <h3>Platforms:Instagram,Youtube,Linkedin & Threads</h3>
+                <p><ul>
+                    <li>Daily Posts</li>
+                    <li>Mindset</li>
+                    <li>Reality Checks</li>
+                    <li>Money & Life</li>
+                </ul></p>
+            </div>
+        </div>
+    </body>
+</html>
