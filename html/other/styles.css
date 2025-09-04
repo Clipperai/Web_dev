@@ -1,5 +1,6 @@
 body{
     font-family: poppins,"sans-serif";
+    background-image: url('pic.png');
 }
 
 
@@ -72,4 +73,5 @@ body{
     left: 110px;
     font-size: 25px;
     
+
 }
